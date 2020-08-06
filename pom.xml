@@ -52,7 +52,7 @@
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-runner</artifactId>
-            <version>%junit.platform.version%</version>
+            <version>${junit.platform.version}</version>
         </dependency>
 
     </dependencies>
@@ -60,18 +60,18 @@
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>%myMavenRepo.read.url%</url>
+            <url>${myMavenRepo.read.url}</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>%myMavenRepo.write.url%</url>
+            <url>${myMavenRepo.write.url}</url>
         </repository>
         <snapshotRepository>
             <id>myMavenRepo.write</id>
-            <url>%myMavenRepo.write.url%</url>
+            <url>${myMavenRepo.write.url}</url>
         </snapshotRepository>
     </distributionManagement>
 
