@@ -60,18 +60,18 @@
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>${myMavenRepo.read.url}</url>
+            <url>https://mymavenrepo.com/repo/WJbvmNlvhp9wWcrWlyIt/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>${myMavenRepo.write.url}</url>
+            <url>https://mymavenrepo.com/repo/WJbvmNlvhp9wWcrWlyIt/</url>
         </repository>
         <snapshotRepository>
             <id>myMavenRepo.write</id>
-            <url>${myMavenRepo.write.url}</url>
+            <url>https://mymavenrepo.com/repo/XaGPpEYosU7H5PsBR9PA/</url>
         </snapshotRepository>
     </distributionManagement>
 
